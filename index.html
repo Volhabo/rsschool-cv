@@ -3,10 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/cv_favicon.ico" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>CV</h1>
+    <header class = "header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="section">
+                <img src="./assets/img/software_cat.jpeg" alt="software_cat" />
+                <div class="section">
+                    <h1 class="section">Volha Barouskaya</h1>
+                    <h3>Software Engineer</h3>    
+                </div>
+            </section>
+            <section>
+                <div class="section" id="contacts">
+                    <h2 class="section">Contacts</h2>
+                    <ul>
+                        <li>GitHub: 
+                            <a href="https://github.com/Volhabo" target="_blank"> Volhabo</a>
+                        </li>
+                        <li>Discord: Volha#6433(@Volhabo)</li>
+                    </ul> 
+                </div>
+            </section>
+            <section>                
+                <div class="section">
+                    <h2 class="section">Summary</h2>
+                    <p> I am a software engineer with a strong desire to learn and grow in the field of technology. 
+                        I have basic knowledge of programming languages and development tools. 
+                        I am hardworking, detail-oriented, and enjoy solving problems. 
+                        My goal is to improve my skills and become a valuable member of a development team. 
+                        I am eager to take on new challenges and work on interesting projects.
+                    </p>    
+                </div>
+            </section>
+            <section>
+                <div class="section" id="skills">
+                    <h2 class="section">Skills</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="section" id="code">
+                    <h2 class="section">Code Example</h2>
+                    <a href="https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java" target="_blank">
+                        <h3>Task from codewars</h3>
+                    </a>
+                    <pre>
+                        <code>
+                            public static int findSmallestInt(int[] args) {
+                                int min = args[0];
+                                for (int i = 1; i &lt; args.length; i++) {
+                                    if (args[i] &lt; min) {
+                                        min = args[i];
+                                    }
+                                }
+
+                                return min;
+                            }
+                        </code>
+                    </pre> 
+                </div>
+            </section>
+            <section>
+                <div class="section" d="education">
+                    <h2 class="section">Education</h2>
+                    
+                </div>
+            </section>
+            <section>
+                <div class="section" id="languages">
+                    <h2 class="section">Languages</h2>
+                    <ul>
+                        <li>Russian - Native</li>
+                        <li>English - Basic</li>
+                        <li>Polish - Intermediate</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container" >
+            <section class="footer">
+                <div class="block"> 
+                    <a href="https://github.com/Volhabo" target="_blank">Volhabo</a>
+                </div>
+                <div class="block">
+                    <p>2022</p>
+                </div>
+                <div class="block">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school logo" width="80" height="80">
+                    </a>   
+                </div>
+            </section> 
+        </div>
+    </footer>
 </body>
 </html>
+
