@@ -90,8 +90,22 @@ body {
     text-decoration: none;
     color: #829985;
     transition: color 0.5s;
-  }
+}
   
   .link:hover {
     color: #5d7260;
-  }
+}
+
+.footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    color: #000000;  
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    padding: 3px;
+}
